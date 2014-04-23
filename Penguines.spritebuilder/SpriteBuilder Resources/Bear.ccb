@@ -202,8 +202,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-2</real>
-							<real>-11</real>
+							<real>-4</real>
+							<real>-20</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -389,7 +389,7 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>length</key>
 			<real>2</real>
 			<key>name</key>
