@@ -13,6 +13,8 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
+    CCNode *_catapult;
+   CCPhysicsJoint *_catapultJoint;
 }
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
@@ -20,6 +22,16 @@
     self.userInteractionEnabled = TRUE;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
+    
+    // visualize physics bodies & joints
+    _physicsNode.debugDraw = TRUE;
+    
+    // catapultArm and catapult shall not collide
+    [_catapultArm.physicsBody setCollisionGroup:_catapult];
+    [_catapult.physicsBody setCollisionGroup:_catapult];
+    
+    // create a joint to connect the catapult arm with the catapult
+    _catapultJoint = [CCPhysicsJoint connectedPivotJointWithBodyA:_catapultArm.physicsBody bodyB:_catapult.physicsBody anchorA:_catapultArm.anchorPointInPoints];
 }
 
 // called on every touch in this scene
