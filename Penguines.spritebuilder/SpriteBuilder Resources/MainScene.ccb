@@ -141,10 +141,10 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>279.99996948242188</real>
+							<real>0.5</real>
 							<real>80</real>
 							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
 							<integer>0</integer>
 						</array>
 					</dict>
