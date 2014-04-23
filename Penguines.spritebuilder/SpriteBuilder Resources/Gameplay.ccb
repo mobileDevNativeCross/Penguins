@@ -230,8 +230,8 @@
 											<real>1.99609375</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>177</real>
+											<real>47.6171875</real>
+											<real>175.65625</real>
 										</array>
 										<array>
 											<real>0.0</real>
@@ -349,20 +349,24 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>3.7187652587890625</real>
+											<real>45.40234375</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>92</real>
+											<real>3.9257965087890625</real>
+											<real>6.86328125</real>
 										</array>
 										<array>
-											<real>215</real>
-											<real>92</real>
+											<real>215.39064025878906</real>
+											<real>4.3828125</real>
 										</array>
 										<array>
-											<real>215</real>
-											<real>0.0</real>
+											<real>215.96876525878906</real>
+											<real>36.875</real>
+										</array>
+										<array>
+											<real>66.316421508789062</real>
+											<real>72.02734375</real>
 										</array>
 									</array>
 								</dict>
