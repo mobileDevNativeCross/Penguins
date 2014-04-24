@@ -199,19 +199,6 @@
 			<key>sourceSize</key>
 			<string>{113, 27}</string>
 		</dict>
-		<key>PeevedPenguinsAssets/waitingpenguin.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{963, 242}, {29, 29}}</string>
-			<key>offset</key>
-			<string>{0, 0}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{0, 0}, {29, 29}}</string>
-			<key>sourceSize</key>
-			<string>{29, 29}</string>
-		</dict>
 	</dict>
 	<key>metadata</key>
 	<dict>
